@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	     <meta charset="utf-8">
+		 <title>Profiles</title>
+		 <link rel="preconnect" href="https://fonts.googleapis.com">
+		 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		 <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=IBM+Plex+Mono&family=Open+Sans&display=swap" rel="stylesheet">
+	 </head>
+	 <style>
+		 {
+		 padding: 0;
+		 margin: 0;
+		 }
+		 body {
+		 background-color: #028AFA;
+		 }
+		 .navbar {
+		 height: 80px;
+		 width: 100%;
+		 background: rgba(0,0,0,0.4);
+		 padding: 0;
+		 margin-left: 0;
+		 }	
+		 .logo {
+		 width: 140px;
+		 height: auto;
+		 padding: 0px 50px;
+		 }
+		 .navbar ul {
+		 float: right;
+		 margin-right: 15px;
+		 }
+		 .navbar ul li {
+		 list-style: none;
+		 margin: 0px 8px;
+		 display: inline-block;
+		 line-height: 50px;
+		 }
+		 .navbar ul li a {
+		 text-decoration: none;
+		 color: #C4EDFF;
+		 padding: 6px 13px;
+		 font-size: 20px;
+		 font-family: 'Cinzel';
+		 }
+		 .navbar ul li a:hover {
+		 background-color: #4A8BEE;
+		 border-radius: 2px;
+		 }
+		 ul li.active a {
+		 background-color: #4A8BEE;
+		 color: #C4EDFF;
+		 }
+		 .card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  float: left;
+		  max-width: 300px;
+		  height: 350px;
+		  margin: 640px 155px;
+		  text-align: center;
+		  font-family: 'Open Sans';
+		  background-color: white;
+		  position: absolute;
+		 }
+		 .card1 {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  float: left;
+		  max-width: 300px;
+		  height: 350px;
+		  margin-top: 1100px; 
+		  margin-left: 160px;
+		  text-align: center;
+		  font-family: 'Open Sans';
+		  background-color: white;
+		  position: absolute;
+		 }
+		 .card2 {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  float: left;
+		  max-width: 300px;
+		  height: 350px;
+		  margin-top: 1100px;
+		  margin-left: 565px;
+		  text-align: center;
+		  font-family: 'Open Sans';
+		  background-color: white;
+		  position: absolute;
+		 }
+		 .card3 {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  float: left;
+		  max-width: 300px;
+		  height: 350px;
+		  margin-top: 1100px;
+		  margin-left: 975px;
+		  text-align: center;
+		  font-family: 'Open Sans';
+		  background-color: white;
+		  position: absolute;
+		 }
+		 .card4 {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  float: left;
+		  max-width: 300px;
+		  height: 350px;
+		  margin-top: 1500px;
+		  margin-left: 360px;
+		  text-align: center;
+		  font-family: 'Open Sans';
+		  background-color: white;
+		  position: absolute;
+		 }
+		 .card5 {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  float: left;
+		  max-width: 300px;
+		  height: 350px;
+		  margin-top: 1500px;
+		  margin-left: 775px;
+		  text-align: center;
+		  font-family: 'Open Sans';
+		  background-color: white;
+		  position: absolute;
+		 }
+		  .card6 {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  float: left;
+		  max-width: 300px;
+		  height: 350px;
+		  margin: 640px 565px;
+		  text-align: center;
+		  font-family: 'Open Sans';
+		  background-color: white;
+		  position: absolute;
+		 }
+		 .card7 {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  float: left;
+		  max-width: 300px;
+		  height: 350px;
+		  margin-top: 640px;
+		  margin-left: 975px;
+		  text-align: center;
+		  font-family: 'Open Sans';
+		  background-color: white;
+		  position: absolute;
+		 }
+		 .profiles {
+		 float: center;
+		 }
+		 .title {
+		  color: grey;
+		  font-size: 18px;
+		 }
+		 .content {
+		 float: left;
+		 margin: 50px 250px;
+		 height: 320px;
+		 width: 635px;
+		 }
+		 .description {
+		 float: left;
+		 margin: 50px;
+		 margin-left: 900px;
+		 margin-right: 200px;
+		 position: absolute;
+		 color: #00026B;
+		 }
+		 .subtitle {
+		 float: left;
+		 font-family: 'Cinzel';
+		 text-align: center;
+		 width: 120px;
+		 height: 50px;
+		 padding-bottom: 15px;
+		 padding-left: 20px;
+		 padding-right: 20px;
+		 margin-top: 520px;
+		 margin-left: 650px;
+		 position: absolute;
+		 background-color: #C4EDFF; 
+		 }
+		 .footer{
+		 position: absolute;
+		 padding: 20px 10px;
+		 margin-top: 1850px;
+		 margin-left: 627px;
+		 color: #C4EDFF;
+		 }
+	 </style>	
+
+	 <body>
+	 <div class="navbar">
+		 <img class="logo" src="catalog.png">
+		 <ul>
+			 <li><a  href="https://anasco-miah.github.io/index.html">Home</a><li>
+			 <li class="active"><a class="active" href="#">Profiles</a><li>
+			 <li><a href="#">Album</a><li>
+			 <li><a href="#">Page of Fame</a><li>
+			 <li><a href="#">Atiny</a><li>
+		 </ul>
+	 </div>
+	 <div class="content">
+		 <img src="group.png" alt="ateez" style="width:100%">
+	 </div>	 
+	 <div class="card">
+		  <img src="sampler.png" alt="hongjoong" style="width:100%">
+		 <h1>Kim Hongjoong</h1>
+		  <p class="title">Leader</p>
+		  <p>Fandom: Pyeonghongmans</p>
+	 </div>
+	 <div class="card6">
+		  <img src="psh.png" alt="seonghwa" style="width:100%">
+		 <h1>Park Seonghwa</h1>
+		  <p class="title">Vocalist</p>
+		  <p>Fandom: Shinestars</p>
+	 </div>
+	 <div class="card7">
+		  <img src="jyh.png" alt="yunho" style="width:100%">
+		 <h1>Jeong Yunho</h1>
+		  <p class="title">Vocalist</p>
+		  <p>Fandom: Yunhopowers</p>
+	 </div>
+	 <div class="description">
+		 <h1 style="font-family: Cinzel;">Who is ATEEZ?</h1>
+		 <p style="font-family: Open Sans; color:#C4EDFF;"><b>Ateez is an 8-member South Korean Boy group managed by KQ Entertainment. The group consists of: Hongjoong, Seonghwa, Yunho, Yeosang, San, Mingi, Wooyoung, and Jongho.</b></p>
+		 <p style="font-family: Open Sans; color:#C4EDFF;"><b>They debuted on October 24th, 2018 with the songs ‘Treasure’ and ‘Pirate King’. They recently released a new album called, 'ZERO: FEVER Part 3', which was released on September 13, 2021.</b></p>
+	 </div>
+	 <div class="subtitle">
+		 <h2>MEMBERS</h2>
+	 </div>
+	 <div class="card1">
+		  <img src="kys.png" alt="yeosang" style="width:100%">
+		 <h1>Kang Yeosang</h1>
+		  <p class="title">Visual</p>
+		  <p>Fandom: Cute dolls</p>
+	 </div>
+	 <div class="card2">
+		  <img src="cs.png" alt="san" style="width:100%">
+		 <h1>Choi San</h1>
+		  <p class="title">Performer</p>
+		  <p>Fandom: Beautiful woods</p>
+	 </div>
+	 <div class="card3">
+		  <img src="smg.png" alt="mingi" style="width:100%">
+		 <h1>Song Mingi</h1>
+		  <p class="title">Rapper</p>
+		  <p>Fandom: Minki's</p>
+	 </div>
+	 <div class="card4">
+		  <img src="jwy.png" alt="wooyoung" style="width:100%">
+		 <h1>Jung Wooyoung</h1>
+		  <p class="title">Vocalist</p>
+		  <p>Fandom: Wommy</p>
+	 </div>
+	 <div class="card5">
+		  <img src="cjh.png" alt="jongho" style="width:100%">
+		 <h1>Choi Jongho</h1>
+		  <p class="title">Maknae</p>
+		  <p>Fandom: Everythings</p>
+	 </div>
+	 <div class="footer">
+		 <p>Cresent Catalog &copy; 2021</p>
+	 </div>
+	 </body>
+ </html>
